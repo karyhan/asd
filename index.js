@@ -16,7 +16,7 @@ async function init(token) {
     stupidAssBot.on('interactionCreate', async (interaction) => {
         if (interaction?.data?.name === 'Yasha') {
             wait interaction.createMessage({
-                content: 'According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway, because bees don\'t care what humans think is impossible.'
+                content: 'are u g dota?'
             })
             console.log('Self destructing...')
             process.exit(0)
