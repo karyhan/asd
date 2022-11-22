@@ -6,8 +6,8 @@ async function init(token) {
     
     stupidAssBot.on('ready', async () => {
         await stupidAssBot.bulkEditCommands([{
-            name: 'lol',
-            description: 'I hate discord so much you cannot believe it',
+            name: 'yasha',
+            description: 'are u g dota?',
             type: 1,
         }])
         console.log(`Paste the URL below into your browser to invite your bot!\nhttps://discord.com/oauth2/authorize?client_id=${stupidAssBot.user.id}&scope=applications.commands%20bot&permissions=3072`)
