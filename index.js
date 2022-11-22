@@ -15,7 +15,7 @@ async function init(token) {
     
     stupidAssBot.on('interactionCreate', async (interaction) => {
         if (interaction?.data?.name === 'Yasha') {
-            wait interaction.createMessage({
+            await interaction.createMessage({
                 content: 'are u g dota?'
             })
             console.log('Self destructing...')
